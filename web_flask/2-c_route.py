@@ -18,6 +18,7 @@ def HBNB():
     """ HBNB function """
     return 'HBNB'
 
+
 @app.route('/c/<text>')
 def c_route(text):
     """ Routing with a string as dynamic parameter """
