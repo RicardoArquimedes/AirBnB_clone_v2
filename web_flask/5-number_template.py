@@ -28,14 +28,14 @@ def c_route(text):
 @app.route('/python')
 @app.route('/python/<text>')
 def python_route(text='is cool'):
-    """Python is cool"""
+    """ Routing with a string as dynamic parameter """
     return 'Python {}'.format(text.replace('_', ' '))
 
 
 @app.route('/number/<int:n>')
-def is_a_number(n):
+def is_anumber(n):
     """ Routing with a int as dynamic parameter """
-    return '{} is a number'.format(n)@app.route('/number_template/<int:n>')
+    return '{} is a number'.format(n)
 
 
 @app.route('/number_template/<int:n>')
