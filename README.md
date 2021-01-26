@@ -1,3 +1,26 @@
+<p align="center">
+     <p align="center">
+          <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+     </p>
+     <p align="center">
+          <a href="https://github.com/ellerbrock/open-source-badges/">
+               <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/AirBnB_clone_v2/commits/master">
+               <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/RicardoArquimedes/AirBnB_clone_v2" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/AirBnB_clone_v2/graphs/contributors">
+               <img alt="contributors" src="https://img.shields.io/github/contributors/RicardoArquimedes/AirBnB_clone_v2" target="_blank" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/AirBnB_clone_v2" target="_blank">
+               <img alt="code-size" src="https://img.shields.io/github/languages/code-size/RicardoArquimedes/AirBnB_clone_v2" />
+          </a>
+          <a href="https://github.com/RicardoArquimedes/AirBnB_clone_v2" target="_blank">
+               <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+          </a>
+     </p>
+</p>
+
 <center> <h1>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
